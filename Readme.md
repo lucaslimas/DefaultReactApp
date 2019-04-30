@@ -1,31 +1,14 @@
-# Projeto Padrão ReactJS
+# Pacotes instalados
 
-Projeto padrão para se inicializar um aplicativo _ReactJS_.
+## Desenvolvimento
 
-Bibliotecas instaladas em _Desenvolimento_:
+- eslint-config-airbnb
+- eslint-plugin-import
+- eslint-plugin-jsx-a11y
+- eslint-plugin-react
 
-- eslint
-- babel-eslint
-- @babel/core
-- @babel/preset-env
-- @babel/preset-react
-- babel-loader
-- webpack
-- webpack-cli
-- style-loader css-loader
-- sass-loader
-- node-sass
-- @babel/plugin-proposal-class-properties
-- webpack-dev-server
+### Comando
 
-Bibliotecas instaladas em _Produção_:
-
-- react
-- react-dom
-- prop-types
-
-Arquivos incluídos:
-
-- .babelrc
-- .editorconfig
-- webpack.config.js
+```js
+yarn add eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react -D
+```

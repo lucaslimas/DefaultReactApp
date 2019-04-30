@@ -1,12 +1,5 @@
-// eslint-disable-next-line no-unused-vars
-import React, { Component } from 'react'
-import { render } from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-// eslint-disable-next-line no-unused-vars
-class App extends Component {
-  render () {
-    return <h1>Hello World</h1>
-  }
-}
-
-render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('root'));
